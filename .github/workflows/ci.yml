@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
+          cache: pip
 
       - name: Install dependencies
         run: |
@@ -78,7 +78,7 @@ jobs:
             type=raw,value=latest
             type=sha,prefix=sha-
 
-      - name: Build and publish Docker image
+      - name: Build and publish multi-platform Docker image
         uses: docker/build-push-action@v6
         with:
           context: .
