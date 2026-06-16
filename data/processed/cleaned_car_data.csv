@@ -1,0 +1,26 @@
+brand,model,year,car_age,km_driven,fuel,transmission,seller_type,owner,condition,listed_price_cad
+Honda,Civic,2023,3,46729,Gasoline,Automatic,Dealer,First Owner,Excellent,19600
+Honda,Accord,2015,11,199723,Gasoline,Automatic,Dealer,First Owner,Excellent,5200
+Toyota,Camry,2023,3,50024,Electric,Automatic,Dealer,First Owner,Good,25100
+Subaru,Forester,2024,2,21532,Electric,Automatic,Dealer,Second Owner,Good,27500
+Chevrolet,Malibu,2023,3,44692,Gasoline,Automatic,Dealer,First Owner,Excellent,18500
+Chevrolet,Malibu,2017,9,153760,Hybrid,Automatic,Dealer,First Owner,Good,7700
+Hyundai,Santa Fe,2018,8,140492,Gasoline,Automatic,Individual,Second Owner,Excellent,8600
+Toyota,RAV4,2018,8,147354,Gasoline,Automatic,Dealer,First Owner,Fair,10300
+Mazda,Mazda6,2016,10,133196,Gasoline,Automatic,Individual,First Owner,Excellent,7500
+Hyundai,Santa Fe,2013,13,157465,Gasoline,Automatic,Dealer,First Owner,Good,5700
+Mazda,CX-5,2020,6,64617,Hybrid,Automatic,Individual,First Owner,Excellent,15700
+Hyundai,Santa Fe,2012,14,234425,Gasoline,Automatic,Individual,Second Owner,Good,4300
+Kia,Optima,2017,9,102609,Gasoline,Automatic,Dealer,First Owner,Fair,4800
+Ford,F-150,2012,14,230192,Gasoline,Automatic,Dealer,Second Owner,Good,4800
+Hyundai,Santa Fe,2020,6,79929,Gasoline,Automatic,Dealer,Second Owner,Excellent,17100
+Ford,Edge,2022,4,68575,Gasoline,Automatic,Dealer,First Owner,Good,21700
+Subaru,Legacy,2012,14,169187,Gasoline,Automatic,Dealer,First Owner,Excellent,6000
+Mazda,Mazda6,2020,6,74864,Gasoline,Automatic,Dealer,First Owner,Excellent,10500
+Nissan,Rogue,2018,8,122901,Gasoline,Manual,Dealer,First Owner,Excellent,9100
+Honda,Accord,2015,11,148851,Gasoline,Automatic,Individual,First Owner,Good,5700
+Volkswagen,Jetta,2012,14,326395,Electric,Manual,Individual,First Owner,Good,3700
+Kia,Sorento,2012,14,166497,Gasoline,Automatic,Dealer,First Owner,Fair,8100
+Volkswagen,Golf,2014,12,160194,Gasoline,Automatic,Individual,First Owner,Good,8500
+Volkswagen,Passat,2012,14,277220,Gasoline,Automatic,Dealer,First Owner,Fair,4500
+Kia,Forte,2021,5,47831,Gasoline,Manual,Dealer,Second Owner,Excellent,11300

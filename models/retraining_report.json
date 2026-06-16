@@ -1,0 +1,15 @@
+{
+    "current_model_metrics": {
+        "model_name": "Random Forest",
+        "mae": 747.9,
+        "rmse": 861.82,
+        "r2": 0.9774
+    },
+    "new_model_metrics": {
+        "model_name": "Random Forest",
+        "mae": 747.9,
+        "rmse": 861.82,
+        "r2": 0.9774
+    },
+    "model_replaced": false
+}
