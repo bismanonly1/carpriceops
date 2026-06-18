@@ -1,4 +1,3 @@
-```yaml
 name: CarPriceOps CI/CD
 
 on:
@@ -47,7 +46,6 @@ jobs:
     name: Build and publish Docker image
     runs-on: ubuntu-latest
     needs: test
-
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     permissions:
@@ -80,7 +78,7 @@ jobs:
             type=raw,value=latest
             type=raw,value=${{ github.sha }}
 
-      - name: Build and publish multi-platform Docker image
+      - name: Build and publish Docker image
         uses: docker/build-push-action@v6
         with:
           context: .
@@ -95,7 +93,6 @@ jobs:
     name: Deploy to Azure App Service
     runs-on: ubuntu-latest
     needs: build-and-publish
-
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     permissions:
@@ -128,4 +125,3 @@ jobs:
             --retry-connrefused \
             --max-time 15 \
             "https://${{ env.AZURE_WEBAPP_NAME }}.azurewebsites.net/health"
-```
