@@ -99,10 +99,6 @@ jobs:
       contents: read
       id-token: write
 
-    environment:
-      name: production
-      url: https://${{ env.AZURE_WEBAPP_NAME }}.azurewebsites.net
-
     steps:
       - name: Log in to Azure using OIDC
         uses: azure/login@v2
